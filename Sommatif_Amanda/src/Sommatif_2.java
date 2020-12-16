@@ -18,7 +18,7 @@ public class Sommatif_2 {
 			myTab[i]=(int)(Math.random()*(i+1));	
 		}
 
-		//Afficher la moyenne du tableau d'entiers
+		//Afficher la moyenne des nombres impairs du tableau d'entiers
 		System.out.println(moyenneImpairs(myTab));
 	}
 	
