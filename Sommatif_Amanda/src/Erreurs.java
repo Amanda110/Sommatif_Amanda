@@ -1,7 +1,7 @@
 
 public class Erreurs {
 
-	public static void main(String[] args) //Il faut mettre 'static'
+	public static void main(String[] args) //Il faut mettre "static" afin qu'on puisse l'appeler 
 	{
 		System.out.println(saluerAmi("John"));
 	}
@@ -10,7 +10,7 @@ public class Erreurs {
 	 * Méthode permettant de saluer un ami en 
 	 * utilisant son nom
 	 */	
-	public static String saluerAmi(String a) //Il faut mettre 'static'
+	public static String saluerAmi(String a) //Il faut mettre "static" afin qu'on puisse appeler la methode 
 	{
 		String message = "Bonjour mon ami " + a; 
 		//On a besoin d'un espace après ami, si non il imprime "Bonjour mon amiJohn"
